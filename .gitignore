@@ -3,5 +3,5 @@ cifar-10-batches-py
 archive
 anomaly_dataset
 split_anomaly_dataset
-cnn_arch/__pycache__
+Appropriate_dagmm/__pycache__
 .DS_store
