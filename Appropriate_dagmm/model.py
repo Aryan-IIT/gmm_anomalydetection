@@ -51,6 +51,15 @@ class DAGMM(nn.Module):
         x_hat = self.compression.decode(z)
         # 3) Reconstruction error (per sample)
         recon_error = torch.norm(x - x_hat, p=2, dim=1, keepdim=True)
+        #this code below gives us ability to use cosine similarity as an extra metric.
+        '''
+        # 3) extra metric: cosine similarity s_i = cos(z_i, some_ref)
+        #    Suppose you have a function cosine(z, ref) -> [B,1]
+        s = cosine_similarity(z, some_reference)                      # [B,1]
+
+        # 4) build features [z, recon_err, s]  -> [B, D+1+1]
+        features = torch.cat([z, recon_err, s], dim=1)
+        '''
         # 4) Estimate mixture responsibilities
         gamma = self.estimation(torch.cat([z, recon_error], dim=1))
         # 5) Compute sample energy via GMM
