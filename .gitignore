@@ -5,3 +5,4 @@ anomaly_dataset
 split_anomaly_dataset
 Appropriate_dagmm/__pycache__
 .DS_store
+cnn_dagmm/__pycahce__
