@@ -5,5 +5,11 @@ anomaly_dataset
 split_anomaly_dataset
 Appropriate_dagmm/__pycache__
 .DS_store
-cnn_dagmm/__pycahce__
+cnn_dagmm/__pycache__
 pump_data
+trials
+audio_dagmm/__pycache__
+audio_dagmm/best_dagmm.pt 
+cnn_dagmm_improved
+cnn_dagmm_residual/.
+audio/__pycache__
