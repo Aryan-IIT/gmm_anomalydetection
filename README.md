@@ -1,1 +1,1 @@
-![alt text](img_start.png)
+![alt text](https://github.com/Aryan-IIT/gmm_anomalydetection/blob/main/image_start.png)
