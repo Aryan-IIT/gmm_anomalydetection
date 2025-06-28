@@ -28,24 +28,6 @@ This repository extends the ICLR’18 DAGMM architecture to the image domain, ex
 └── README.md
 ```
 
-## 🚀 Usage
-
-1. **Training**
-
-   ```bash
-   python src/train.py \
-     --data_dir ./data/images \
-     --arch conv    # or “residual” for the residual-conv variant
-   ```
-
-2. **Inference**
-
-   ```bash
-   python src/infer.py \
-     --checkpoint models/conv_dagmm.pt \
-     --output_dir trials/conv/
-   ```
-
 All training and inference logs, as well as evaluation outputs (scores, ROC curves), are dumped into the `trials/` folder for easy inspection.
 
 ## Results
