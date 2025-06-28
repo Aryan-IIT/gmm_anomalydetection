@@ -39,7 +39,7 @@ All training and inference logs, as well as evaluation outputs (scores, ROC curv
 | *e.g.*, BrokenBottle vs GoodBottle | Conv-DAGMM     | 0.XX      | 0.XX   | 0.XX  |
 | *e.g.*, BrokenBottle vs GoodBottle | Residual-DAGMM | 0.XX      | 0.XX   | 0.XX  |
 
-> **Note:** replace `0.XX` with your actual metrics from `trials/`.
+> **Note:** replace `0.XX` with your actual metrics from `trials/` => Yet to write this.
 
 ## What’s Inside
 
