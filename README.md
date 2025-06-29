@@ -34,12 +34,12 @@ All training and inference logs, as well as evaluation outputs (scores, ROC curv
 
 | Dataset                            | Architecture   | Precision | Recall | AUROC |
 | ---------------------------------- | -------------- | --------- | ------ | ----- |
-| *e.g.*, BrokenBottle vs GoodBottle | Conv-DAGMM     | 0.XX      | 0.XX   | 0.XX  |
-|         BrokenBottle vs GoodBottle | Conv-DAGMM     | 0.XX      | 0.XX   | 0.XX  |
-| *e.g.*, BrokenBottle vs GoodBottle | Conv-DAGMM     | 0.XX      | 0.XX   | 0.XX  |
-| *e.g.*, BrokenBottle vs GoodBottle | Residual-DAGMM | 0.XX      | 0.XX   | 0.XX  |
+|  Forest vs Non-forest | Conv-DAGMM     | 0.75      | 0.70   | 0.87  |
+|         Forest vs Non-forest | Residual-DAGMM     | 0.60      | 0.60   | 0.82  |
+|  BrokenBottle vs GoodBottle | Conv-DAGMM     | 0.65      | 0.60   | 0.70  |
+| BrokenBottle vs GoodBottle | Residual-DAGMM | 0.60      | 0.55   | 0.71  |
 
-> **Note:** replace `0.XX` with your actual metrics from `trials/` => Yet to write this.
+Datasets used: ```Intel Image Classification Dataset``` and ```MVTec AD```
 
 ## What’s Inside
 
