@@ -2,6 +2,8 @@
 
 This repository extends the ICLR’18 DAGMM architecture to the image domain, exploring both standard convolutional and residual-convolutional variants. We demonstrate significant AUROC and precision/recall improvements over a naïve flattened-vector baseline.
 
+Please find attached the slides to the [presentation/submission](https://github.com/Aryan-IIT/gmm_anomalydetection/blob/main/slides/Extending%20modality%20in%20Deep%20Autoencoding%20Gaussian%20Mixture%20Models%20.pdf).
+
 ## 🔧 Requirements & Setup
 
 * **Python:** 3.10
